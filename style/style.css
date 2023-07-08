@@ -196,3 +196,71 @@ main{
     padding-bottom: 7px;
     padding-top: 10px;
 }
+
+.resume-btn{
+    margin-left: 40%;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #FFF8F3;
+    display: flex;
+    justify-content: space-around;
+}
+.icons{
+    padding-left: 150px;
+}
+
+.icons img{
+    width: 20px;
+    margin: 2px;
+   
+}
+
+.footer-heading{
+    padding-left: 150px;
+color: #181818;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+padding-bottom: 10px;
+
+}
+
+.footer-desctiption{
+    padding-left: 150px;
+color: #474747;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+padding-bottom: 5px;
+}
+
+.footer-contact{
+    padding-right: 200px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+.footer-2 input{
+    display: block;
+    padding: 15px;
+    margin: 0 100px 20px 10px;
+    width: 400px;
+    border: 0px;
+}
+
+
+#text{
+    padding: 15px;
+    margin: 0 100px 20px 10px;
+    width: 400px;
+    border: 0px;
+    font-family: Open Sans;
+}
+
+.footer-btn{
+    margin-right: 200px;
+}
