@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:wght@700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+  
+    background-size: 600px;
+    background-repeat: no-repeat;
+   
+    background-position: bottom right ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+nav h2{
+    font-size: 45px;
+    padding-left: 200px;
+}
+nav span{
+    color: #FD6E0A;
+    
+}
+
+nav ul{
+    display: flex;
+    /* padding: 30px ; */
+    padding-right: 40px;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 10px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 18px;
+    font-style: normal;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+}
+.heading-text{
+    /* padding-left: 220px; */
+    margin-top: 80px;
+}
+.greeting{
+    color: #474747;
+    font-size: 40px;
+    font-style: normal;
+}
+.heading-intro{
+    color: #181818;
+    font-size: 70px;
+}
+
+.heading-description{
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.header-textimg{
+    display: flex;
+    padding: 30px 100px 0px 220px;
+    align-items: center;
+}
+
+ img{
+    width: 420px;
+    margin-right: 100px;
+    padding-top: 10px;
+   
+    
+}
