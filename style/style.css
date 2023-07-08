@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:wght@700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:wght@700;800&display=swap'); */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Alkatra', cursive;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Alkatra', cursive; */
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 .header{
@@ -84,6 +84,7 @@ nav li a{
     display: flex;
     padding: 30px 100px 0px 220px;
     align-items: center;
+    justify-content: space-between;
 }
 
  img{
@@ -92,4 +93,106 @@ nav li a{
     padding-top: 10px;
    
     
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.about{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.about-description{
+    color:  #757575;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+.about-info h4{
+    color: #757575;
+    font-size: 15px;
+}
+
+.about-info p{
+    color: #474747;
+}
+.doing-section-description{
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    padding-bottom: 40px;
+
+}
+
+.skill-box{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-bottom: 100px;
+    
+}
+.box-1{
+   box-shadow: 0px 0px 1px  grey;
+   padding: 20px;
+   
+ 
+}
+.box-1 h3,p{
+    padding-bottom: 20px;
+}
+.box-1 img{
+    width: 50px;
+    padding-bottom: 20px;
+
+}
+
+.resume-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.education{
+    width: 40%;
+    height: 80vh;
+    /* background-color: #757575; */
+    padding: 20px;
+   
+    
+}
+
+.education-heading{
+    padding-bottom: 20px;
+    
+
+}
+
+.education-topic , .education-uni{
+    padding-bottom: 7px;
+    padding-top: 10px;
 }
