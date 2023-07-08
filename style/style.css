@@ -65,7 +65,7 @@ nav li a{
     font-size: 18px;
 }
 .btn:hover{
-    border: 2px solid #FD6E0A;
+    /* border: 2px solid #FD6E0A; */
     background-color: #fff;
     color: #FD6E0A;
 }
@@ -147,7 +147,7 @@ main{
     font-family: Open Sans;
     color:  #757575;
     text-align: center;
-    font-size: 15px;
+    font-size: 22px;
     font-style: normal;
     line-height: 30px;
     padding-bottom: 50px;
@@ -163,10 +163,11 @@ main{
 
 .about-info h4{
     color: #757575;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .about-info p{
+    font-size: 20px;
     color: #474747;
 }
 .doing-section-description{
@@ -175,6 +176,7 @@ main{
     width: 900px;
     margin: auto;
     padding-bottom: 40px;
+    font-size: 22px;
 
 }
 
@@ -189,14 +191,18 @@ main{
 .box-1{
    box-shadow: 0px 0px 1px  grey;
    padding: 20px;
+   text-align: center;
    
  
 }
 .box-1 h3,p{
     padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 .box-1 img{
-    width: 50px;
+    padding-left: 110px;
+    width: 180px;
     padding-bottom: 20px;
 
 }
@@ -212,23 +218,37 @@ main{
     width: 40%;
     height: 80vh;
     /* background-color: #757575; */
-    padding: 20px;
+    /* padding: 20px; */
    
     
 }
 
 .education-heading{
     padding-bottom: 20px;
-    
-
+    font-size: 30px;
 }
 
-.education-topic , .education-uni{
+.education-topic , .education-uni {
     padding-bottom: 7px;
     padding-top: 10px;
+    padding-right: 150px;
 }
-
+.education-uni{
+    color: #757575;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+   
+}
+.education-description{
+    padding-right: 150px;
+    text-align: left;
+    color: #757575;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
 .resume-btn{
+    margin-top: 300px;
     font-family: Open Sans;
     margin-left: 40%;
 }
@@ -237,7 +257,7 @@ main{
     margin-top: 50px;
     background-color: #FFF8F3;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .icons{
     padding-left: 150px;
@@ -261,12 +281,12 @@ main{
 }
 
 .footer-desctiption{
-    font-family: Open Sans;
+    text-align: left;
     padding-left: 150px;
     color: #474747;
     font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
+    font-size: 20px;
+    
     padding-bottom: 5px;
 }
 
@@ -279,12 +299,16 @@ main{
     font-style: normal;
     padding-bottom: 10px;
 }
+.footer-2{
+    margin-right: 200px;
+}
 .footer-2 input{
     display: block;
     padding: 15px;
     margin: 0 100px 20px 10px;
     width: 400px;
     border: 0px;
+   
 }
 
 
