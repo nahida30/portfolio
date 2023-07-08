@@ -231,7 +231,14 @@ main{
 .education-topic , .education-uni {
     padding-bottom: 7px;
     padding-top: 10px;
-    padding-right: 150px;
+    padding-right: 200px;
+    
+}
+.education-topic{
+    text-align: left;
+    font-weight: bold;
+    color: #474747;
+    font-size: 15px;
 }
 .education-uni{
     color: #757575;
