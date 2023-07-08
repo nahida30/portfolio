@@ -9,13 +9,15 @@
 }
 
 .header{
+
     background-color: #FFF8F3;
     background-image: url("../images/header_bg.png");
+    
   
-    background-size: 600px;
+    /* background-size: 600px; */
     background-repeat: no-repeat;
    
-    background-position: bottom right ;
+    background-position: bottom right  ;
 }
 
 nav{
@@ -25,8 +27,10 @@ nav{
     align-items: center;
 }
 nav h2{
+    cursor: pointer;
     font-size: 45px;
     padding-left: 200px;
+    font-family: Open Sans;
 }
 nav span{
     color: #FD6E0A;
@@ -37,6 +41,7 @@ nav ul{
     display: flex;
     /* padding: 30px ; */
     padding-right: 40px;
+    font-family: Open Sans;
     
 }
 nav li{
@@ -59,25 +64,44 @@ nav li a{
     color: #fff;
     font-size: 18px;
 }
+.btn:hover{
+    border: 2px solid #FD6E0A;
+    background-color: #fff;
+    color: #FD6E0A;
+}
+.contact-btn{
+    border: 2px solid #FD6E0A;
+    background-color: #fff;
+    color: #FD6E0A;
+}
+.contact-btn:hover{
+    background-color: #FD6E0A;
+    color: #fff;
+
+}
 .heading-text{
     /* padding-left: 220px; */
     margin-top: 80px;
+   
 }
 .greeting{
     color: #474747;
     font-size: 40px;
     font-style: normal;
+    font-family: Open Sans;
 }
 .heading-intro{
     color: #181818;
-    font-size: 70px;
+    font-size: 50px;
+    font-family: Open Sans;
 }
 
 .heading-description{
     color: #757575;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     padding-bottom: 10px;
+    font-family: Open Sans;
 }
 
 .header-textimg{
@@ -109,6 +133,7 @@ main{
 }
 
 .section-title{
+    font-family: Open Sans;
     color:#181818;
     text-align: center;
     font-size: 35px;
@@ -119,6 +144,7 @@ main{
 }
 
 .about-description{
+    font-family: Open Sans;
     color:  #757575;
     text-align: center;
     font-size: 15px;
@@ -127,6 +153,7 @@ main{
     padding-bottom: 50px;
 }
 .about-info-container{
+    font-family: Open Sans;
     display: flex;
     justify-content: space-around;
 }
@@ -143,6 +170,7 @@ main{
     color: #474747;
 }
 .doing-section-description{
+    font-family: Open Sans;
     text-align: center;
     width: 900px;
     margin: auto;
@@ -151,6 +179,7 @@ main{
 }
 
 .skill-box{
+    font-family: Open Sans;
     display: flex;
     justify-content: space-around;
     gap: 20px;
@@ -173,11 +202,13 @@ main{
 }
 
 .resume-section{
+    
     display: flex;
     justify-content: space-around;
 }
 
 .education{
+    font-family: Open Sans;
     width: 40%;
     height: 80vh;
     /* background-color: #757575; */
@@ -198,6 +229,7 @@ main{
 }
 
 .resume-btn{
+    font-family: Open Sans;
     margin-left: 40%;
 }
 
@@ -218,25 +250,28 @@ main{
 }
 
 .footer-heading{
+    font-family: Open Sans;
     padding-left: 150px;
-color: #181818;
-font-family: Open Sans;
-font-size: 35px;
-font-style: normal;
-padding-bottom: 10px;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    padding-bottom: 10px;
 
 }
 
 .footer-desctiption{
+    font-family: Open Sans;
     padding-left: 150px;
-color: #474747;
-font-family: Open Sans;
-font-size: 16px;
-font-style: normal;
-padding-bottom: 5px;
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    padding-bottom: 5px;
 }
 
 .footer-contact{
+    font-family: Open Sans;
     padding-right: 200px;
     color: #181818;
     font-family: Open Sans;
